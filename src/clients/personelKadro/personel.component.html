@@ -1,0 +1,32 @@
+
+<navbar></navbar>
+<div class="container">
+<!--şubeye göre hocaları filtreleme--->
+<select  class="form-select mt-5 mx-3 " aria-label="Default select example">
+    <option selected>Şube seçiniz:</option>
+    <option *ngFor="let item of city" value="1">{{item}}</option>
+    
+  </select>
+  <!--eğitmenlr-->
+  <div class="row mt-5 mx-5">
+       <h4>EĞİTMENLERİMİZ</h4>
+       <div class="card mx-2 mt-2 bg-light" style="width: 18rem;">
+        <img class="card-img-top rounded-circle w-100" src="https://dictionary.cambridge.org/tr/images/thumb/face_noun_002_13169.jpg?version=5.0.325" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card mx-2 mt-2 bg-light " style="width: 18rem;">
+        <img class="card-img-top rounded-circle w-100" src="https://dictionary.cambridge.org/tr/images/thumb/face_noun_002_13169.jpg?version=5.0.325" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card mx-2 mt-2 bg-light " style="width: 18rem;">
+        <img class="card-img-top rounded-circle w-100" src="https://dictionary.cambridge.org/tr/images/thumb/face_noun_002_13169.jpg?version=5.0.325" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+
+    </div>

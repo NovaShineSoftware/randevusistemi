@@ -1,0 +1,11 @@
+.govde{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-image: url("https://sinirbilim.org/wp-content/uploads/2017/07/Zaman-Alg%C4%B1s%C4%B1-%C4%B0nsanlarda-Nas%C4%B1l-De%C4%9Fi%C5%9Fiyor.jpg");
+  }
+  .form{
+    background-color: rgb(8, 115, 118);
+   
+  }
